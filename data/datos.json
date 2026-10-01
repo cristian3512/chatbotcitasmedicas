@@ -1,0 +1,84 @@
+{
+  "areas": [
+    {
+      "nombre": "Cardiología",
+      "descripcion": "Atención de enfermedades del corazón"
+    },
+    {
+      "nombre": "Dermatología",
+      "descripcion": "Atención de problemas de piel"
+    },
+    {
+      "nombre": "Traumatología",
+      "descripcion": "Atención de lesiones y problemas musculoesqueléticos"
+    }
+  ],
+  "medicos": [
+    {
+      "id": 1,
+      "nombre": "Ana Torres",
+      "area": "Traumatología",
+      "correo": "anatorres@hotmail.com",
+      "turnos": [
+        "Lunes 09:00",
+        "Lunes 10:00",
+        "Miércoles 15:00"
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "Carlos Pérez",
+      "area": "Traumatología",
+      "correo": "carlosperez@hotmail.com",
+      "turnos": [
+        "Martes 09:00",
+        "Miércoles 11:00",
+        "Viernes 15:00"
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "María López",
+      "area": "Cardiología",
+      "correo": "carlosperez@hotmail.com",
+      "turnos": [
+        "Lunes 08:00",
+        "Martes 10:00",
+        "Jueves 14:00"
+      ]
+    },
+    {
+      "id": 4,
+      "nombre": "Jorge Ramírez",
+      "area": "Cardiología",
+      "correo": "jorgeramirez@hotmail.com",
+      "turnos": [
+        "Miércoles 09:00",
+        "Jueves 11:00",
+        "Viernes 16:00"
+      ]
+    },
+    {
+      "id": 5,
+      "nombre": "Laura Mendoza",
+      "area": "Dermatología",
+      "correo": "lauramendoza@hotmail.com",
+      "turnos": [
+        "Lunes 11:00",
+        "Miércoles 10:00",
+        "Viernes 14:00"
+      ]
+    },
+    {
+      "id": 6,
+      "nombre": "Pedro suarez",
+      "area": "Dermatología",
+      "correo": "pedrosuarez@hotmail.com",
+      "turnos": [
+        "Martes 09:00",
+        "Jueves 15:00",
+        "Viernes 11:00"
+      ]
+    }
+  ]
+}

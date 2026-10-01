@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f8f5">
+  <title>Novaly | Agenda médica</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="topbar">
+      <a class="brand" href="/" aria-label="Novaly inicio"><span class="brand-mark">n</span><span>novaly<span class="brand-dot">.</span></span></a>
+      <div class="header-meta"><span class="secure"><i></i> Asistente de citas</span><button id="reset" class="reset" type="button">Nueva conversación</button></div>
+    </header>
+    <section class="intro">
+      <div class="eyebrow">ATENCIÓN MÉDICA, MÁS SIMPLE</div>
+      <h1>Tu próxima cita,<br><em>sin complicaciones.</em></h1>
+      <p>Cuéntame qué tipo de consulta buscas y te ayudo a encontrar un médico.</p>
+    </section>
+    <section class="chat-card" aria-label="Conversación con el asistente">
+      <div class="chat-head"><div class="avatar">n</div><div><strong>Asistente Novaly</strong><small><span class="online"></span> Disponible para ayudarte</small></div><span id="mode" class="mode">Conectando…</span></div>
+      <div id="messages" class="messages" aria-live="polite"></div>
+      <form id="chat-form" class="composer">
+        <label class="sr-only" for="message-input">Escribe tu mensaje</label>
+        <input id="message-input" autocomplete="off" placeholder="Escribe aquí tu consulta…" maxlength="1200" required>
+        <button id="send" type="submit" aria-label="Enviar mensaje"><span>Enviar</span><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M3 10h13M10 4l6 6-6 6"/></svg></button>
+      </form>
+    </section>
+    <footer><span>Este asistente gestiona citas y no ofrece diagnósticos ni tratamientos.</span><span>Atención clara, a tu ritmo.</span></footer>
+  </main>
+  <script src="/app.js" type="module"></script>
+</body>
+</html>
